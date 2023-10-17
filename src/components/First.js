@@ -10,9 +10,9 @@ const First = () => {
 
   const [showContact, setShowContact] = useState(false);
   const [showClients, setShowClients] = useState(false)
-  const [showTestimonials, setShowTestimonials] = useState(false)
+  const [showTestimonials, setShowTestcimonials] = useState(false)
 
-
+console.log("skfhdjs);
   const handleProject = () => {
     setShow(true)
     setShowContact(false);
